@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.mult-of-ten {
+    background-color: green;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th,
+tr {
+    min-width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
